@@ -15,6 +15,6 @@ resource "aws_instance" "public2" {
   user_data                   = file("user1.sh")
 
   tags = {
-    Name = "PUB-INSTANCE-2"
+    Name = "PUB-INSTANCE-23"
   }
 }
